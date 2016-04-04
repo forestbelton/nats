@@ -18,7 +18,7 @@ data Nat = Z | S Nat
 -- Given a natural number, compute its integer
 -- representation.
 fromNat :: Nat -> Int
-fromNat = 0
+fromNat _ = 0
 
 -- Given two natural numbers, compute their sum. Think
 -- about this recursively; what is the base case? What
